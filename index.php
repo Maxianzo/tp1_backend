@@ -7,7 +7,9 @@
 </head>
 <body>
 
-	<h1>punto 1</h1>
+<H1>TRABAJO PRACTICO  1</H1>
+<P>estan la clases y  lostra bajops paractiicos todo junto en el mismo archivo trabaj1,clas2,trabaj2,...</P>
+<h2>punto 1</h2>
 <?php 
 //punto 1
 	$Saludo = "hola mundo  ";
@@ -116,6 +118,71 @@ echo "<br>";
 echo $area;
 
 
+
+
 ?>
+
+
+
+
+
+<h1> clase 3</h1>
+
+
+
+<h4>estructura de control</h4>
+
+<?php
+//sintacsis del if : si  pasa esto hace esto
+
+$a = 82;
+$b = 253;
+$c = 4;
+
+//hacer algo sino hacer 
+if ($a > $b) {
+	echo "A es ,ayor que B";
+	
+}
+else {
+	echo "B es mayor a A";
+}
+
+echo "<br>";
+//hacer algo si pasa esto
+if ($a > $c) {
+	echo "A es ,mayor que c";
+	
+}
+
+echo "<br>" ;
+//hacer esto , sino hacer esto ,sino es ninguna de esas que sea else
+
+if ($a == $b) {
+	echo "A es ,mayor que B";
+	
+}
+elseif ($a > $b) {
+	echo " B es mayor  A ";
+}
+else {
+	echo "error";
+}
+
+?>
+
+
+<h1>TRABAJO NUMERO 2</h1>
+
+<?php
+
+
+
+
+?>
+
+
+
+
 </body>
 </html>
